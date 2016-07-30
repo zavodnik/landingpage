@@ -1,0 +1,28 @@
+{
+  "name": "zavodnik-landingpage",
+  "description": "Simple Hello World Node.js sample for Google App Engine",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache Version 2.0",
+  "author": "Google Inc.",
+  "engines": {
+    "node": "~4.2"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "monitor": "nodemon app.js",
+    "deploy": "gcloud app deploy"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.9.0",
+    "font-awesome": "^4.6.3",
+    "jquery": "^3.1.0",
+    "style-loader": "^0.13.1",
+    "webpack-livereload-plugin": "^0.8.1"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
